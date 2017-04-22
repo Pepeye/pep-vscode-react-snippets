@@ -1,0 +1,26 @@
+{
+    "name": "pep-vscode-react-snippets",
+    "publisher": "pepeye",
+    "description": "React ES7 Snippets",
+    "version": "0.1.0",
+    "engines": { "vscode": "0.10.x" },
+    "license": "MIT",
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }, {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }, {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }, {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
